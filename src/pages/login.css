@@ -20,14 +20,27 @@ filter: drop-shadow(0 0 2em #3b9b04aa);
   cursor: pointer;
 }
 .card {
-background-color: azure;
-border-radius: 10px;
-padding-top: 0.2px;
-padding-bottom: 2em;
+  background-color: azure;
+  border-radius: 10px;
+  padding-top: 0.2px;
+  padding-bottom: 2em;
 }
 
 .read-the-docs {
-color: #888;
+  color: #888;
 }
 
-  
+.div{
+  padding-top: 10px;
+}
+
+.input{
+  font-size: 1em;
+  width: 200px;
+  height: 25px;
+  padding-top: 0px;
+}
+
+.p{
+  text-align: center;
+}

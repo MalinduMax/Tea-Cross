@@ -19,13 +19,19 @@ function Login() {
       </div>
       <div className="card">
         <h1>Login</h1>
-        <text>Account Number</text><br />
-        <input name="myInput" /><br /><br />
-        <text>Password</text><br />
-        <input name="myInput" /><br /><br />
+        <div>
+        <p className='p'>Account Number</p>
+        <input className="input" name="Account No." />
+        </div>
+        <div>
+        <p className='p'>Password</p>
+        <input className="input" name="Password" />
+        </div>
+        <div className='div'>
         <button className="button">
           Login
         </button>
+        </div>
         <p>
           Create New Account <button className="button1" onClick={handleClick}> Click Here </button>
         </p>

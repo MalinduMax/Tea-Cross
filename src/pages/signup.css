@@ -1,0 +1,56 @@
+.card1 {
+    background-color: azure;
+    padding-top: 0.2px;
+    padding-bottom: 2em;
+  }
+
+.logo1 {
+    height: 7em;
+    padding-top: 0em;
+    padding-bottom:inherit;
+    will-change: filter;
+    transition: filter 300ms;
+}
+.logo:hover {
+    filter: drop-shadow(0 0 2em #3b9b04aa);
+}
+
+.button1 {
+    border-color: transparent;
+    padding: 2px;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: underline;
+    font-family: inherit;
+    color:#1a6802;
+    cursor: pointer;
+}
+.card {
+    background-color: azure;
+    border-radius: 10px;
+    padding-top: 0.2px;
+    padding-bottom: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+.div{
+    padding-top: 10px;
+}
+
+.input{
+    font-size: 1em;
+    width: 200px;
+    height: 25px;
+    padding-top: 0px;
+}
+
+.p1{
+    text-align: center;
+}  
+
+.div1{
+    align-content: center;
+}
