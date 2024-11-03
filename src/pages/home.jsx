@@ -17,7 +17,7 @@ function Home () {
         <div>
           <img src={Logo} className="logo" alt="logo" />
         </div>
-        <button onClick={handleClick}>
+        <button className='button' onClick={handleClick}>
           Start
         </button>
       </div>
