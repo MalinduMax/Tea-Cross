@@ -1,0 +1,22 @@
+   .logo1 {
+    height: 7em;
+    padding-top: 0em;
+    padding-bottom:inherit;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #3b9b04aa);
+  }
+  
+  .card {
+    background-color: azure;
+    border-radius: 10px;
+    padding-top: 0.2px;
+    padding-bottom: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
